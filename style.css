@@ -1,0 +1,130 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+  margin: auto;
+  background-color: #d1ff8c;
+}
+
+ul, li, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  text-align: right;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.percentage-button {
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  margin-top: 2vh;
+  min-width: 10vh;
+  min-height: 5vh;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: white;
+  max-width: 100vh;
+  min-height: 40vh;
+  border-radius: 15px;
+  margin: 10vh auto;
+  padding: 3vh;
+}
+
+.tip-flex {
+  margin-top: -1vh;
+  margin-bottom: 1vh;
+  max-width: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1vh;
+}
+
+.inputs {
+  padding: 3vh;
+}
+
+.result {
+  background-color: #005526;
+  min-width: 35vh;
+  border-radius: 10px;
+  padding: 1vh;
+}
+
+.user-input {
+  min-height: 4vh;
+  max-width: 40vw;
+  min-width: 100%;
+  border: none;
+  background-color: #d8d8d8;
+  margin: auto 0;
+}
+
+.reset-button {
+  display: block;
+  margin: 75% auto 0 auto;
+  width: 80%;
+  min-height: 4vh;
+  border: none;
+  border-radius: 5px;
+  background-color: #009c75;
+  letter-spacing: .2px;
+  font-size: 2vh;
+  font-family: monospace;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.bg-dollar {
+  background: url(/images/icon-dollar.svg) no-repeat #eee;
+  background-size: 6%;
+}
+
+.bg-user {
+  background: url(/images/icon-person.svg) no-repeat #eee;
+  background-size: 6%;
+}
+
+.add-gap {
+  margin-bottom: 2vh;
+}
+/*# sourceMappingURL=style.css.map */
