@@ -26,9 +26,22 @@ button{
     border-radius: 5px;
     background-color: green;
     margin-top: 2vh;
-    min-width: 10vh;
+    min-width: 12vh;
+    max-width: 12vh;
     min-height: 5vh;
+    font-size: 3vh;
+    transition: 0.4s;
 }
+.percentage-input{
+    width: 100%;
+    margin-left: -.5vh;
+    display: none;
+}
+.active{
+    background-color: rgb(0, 192, 0);
+    transition: 0.4s;
+}
+
 .card{
     display: flex;
     flex: 1 1 50%;
@@ -48,7 +61,7 @@ button{
 .tip-flex{
     margin-top: -1vh;
     margin-bottom: 1vh;
-    max-width: 35vh;
+    max-width: 38vh;
     display: flex;
     flex: 1 1 50%;
     flex-direction: row;
@@ -62,21 +75,50 @@ button{
 .result{
     background-color: rgb(0, 85, 38);
     min-width: 35vh;
+    
     border-radius: 10px;
-    padding: 1vh;
+    padding: 5vh 1vh;
+}
+.result-flex{
+    display: flex;
+    flex: 1 1 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    font-size: 3vh;
+}
+.tip-amount{
+    min-width: 60%;
+    font-size: 3vh;
+    margin-bottom: 10vh;
+    color: white;
 }
 
+.result-input{
+    width: 50%;
+    position: relative;
+    margin-left: 15vh;
+    font-size: 3vh;
+    border: none;
+    color:green;
+    
+}
+.per-person{
+    color: gray;
+}
 .user-input{
     min-height: 4vh;
     max-width: 40vw;
     min-width: 100%;
     border: none;
-    background-color: rgb(216, 216, 216);
+    border-radius: 5px;
+    background-color: rgb(158, 158, 158);
     margin: auto 0;
+    font-size: 3vh;
 }
 .reset-button{
     display: block;
-    margin: 75% auto 0 auto;
+    margin: -5vh auto 0 auto;
     width: 80%;
     min-height: 4vh;
     border: none;
@@ -91,12 +133,12 @@ button{
 }
 
 .bg-dollar{
-    background: url(/images/icon-dollar.svg) no-repeat #eee;
+    background: url(/images/icon-dollar.svg) no-repeat rgb(146, 146, 146) left;
     background-size: 6%;
 }
 .bg-user{
-    background: url(/images/icon-person.svg) no-repeat #eee;
-    background-size: 6%;
+    background: url(/images/icon-person.svg) no-repeat rgb(138, 138, 138) left;
+    background-size: 3vh;
 }
 .add-gap{
     margin-bottom: 2vh;
