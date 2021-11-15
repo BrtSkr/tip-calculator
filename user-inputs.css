@@ -1,0 +1,27 @@
+.percentage-input {
+  border-radius: 5px;
+  width: 11.6vh;
+  height: 4.7vh;
+  margin: auto;
+  border: none;
+  display: block;
+  font-size: 3vh;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #c5e4e7;
+}
+
+.percentage-input:focus {
+  outline: none;
+  border-radius: 5px;
+  background-color: #26c0ab;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.active {
+  background-color: #26c0ab;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+/*# sourceMappingURL=user-inputs.css.map */

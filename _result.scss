@@ -1,0 +1,48 @@
+.result{
+    background-color: hsl(183, 100%, 15%);
+    min-width: 35vh;
+    border-radius: 10px;
+    padding: 5vh 1vh;
+}
+.tip-amount{
+    min-width: 60%;
+    font-size: 3vh;
+    margin-bottom: 10vh;
+    color: white;
+}
+.result-output{
+    width: 50%;
+    position: relative;
+    margin-left: 15vh;
+    font-size: 3vh;
+    border: none;
+    color:hsl(172, 67%, 45%);
+    font-weight: 800;
+}
+.per-person{
+    color: gray;
+}
+
+.reset-button{
+    display: block;
+    margin: -5vh auto 0 auto;
+    width: 80%;
+    min-height: 4vh;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(172, 67%, 45%);
+    letter-spacing: .2px;
+    font-size: 2vh;
+    font-family:monospace;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.reset-button:hover{
+    background-color:  hsl(185, 41%, 84%);
+    transition: 0.3s;
+}
+.total-text{
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}

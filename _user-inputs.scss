@@ -1,0 +1,90 @@
+//flex of all six buttons (percentage buttons)
+.tip-flex{
+    margin-top: -1vh;
+    margin-bottom: 1vh;
+    max-width: 38vh;
+    display: flex;
+    flex: 1 1 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vh;
+    
+}
+.user-input{
+    min-height: 4vh;
+    max-width: 40vw;
+    min-width: 100%;
+    border:solid white;
+    border-radius: 5px;
+    margin: auto 0;
+    font-size: 3vh;
+    transition: 0.4s;
+    
+}
+.bg-dollar{
+    background: url(/images/icon-dollar.svg) no-repeat hsl(189, 41%, 97%) left;
+    background-size: 6%;
+}
+.bg-dollar:focus{
+    border: solid hsl(172, 67%, 45%);
+    outline: none;
+    transition: 0.5s;
+}
+
+.bg-user{
+    background: url(/images/icon-person.svg) no-repeat hsl(189, 41%, 97%) left;
+    background-size: 3vh;
+}
+.bg-user:focus{
+    border: solid hsl(172, 67%, 45%);
+    outline: none;
+    transition: 0.5s;
+}
+//button with percentage
+.percentage-button{
+    font-family: monospace;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(183, 100%, 15%);
+    margin-top: 2vh;
+    min-width: 12vh;
+    max-width: 12vh;
+    min-height: 5vh;
+    font-size: 3vh;
+    transition: 0.4s;
+}
+
+.percentage-button:hover, .percentage-input:hover{
+    background-color: hsl(172, 67%, 45%);
+}
+.user-input:hover, .user-input:focus{
+  background-color:  hsl(185, 41%, 84%);
+}
+.custom-text{
+    text-align: center;
+    margin: 0.7vh auto 0 auto;
+}
+//custom input/percentage
+.percentage-input{
+    border-radius: 5px;
+    width: 11.6vh;
+    height: 4.7vh;
+    margin: auto;
+    border: none;
+    display: none;
+    font-size: 3vh;
+    transition: 0.3s;
+    background-color: hsl(185, 41%, 84%);
+}
+.percentage-input:focus{
+    outline: none;
+    border-radius: 5px;
+    background-color: hsl(172, 67%, 45%);
+    transition: 0.3s;
+}
+
+//if you clicked any of the buttons with percentage this class will be added
+.active{
+    background-color: hsl(172, 67%, 45%);
+    transition: 0.4s;
+}

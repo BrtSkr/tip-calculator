@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+  <meta name="author" content="Bartosz Skrzydelski">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Space+Mono">
   <link rel="stylesheet" href="style.css">
   <title>Tip calculator</title>
 
@@ -20,35 +21,35 @@
     <div class="inputs">
       <h2 class="">Bill</h2>
 
-      <input type="number" class="user-input add-gap bg-dollar" id="bill" placeholder="0" value="0">
+      <input type="number" class="user-input add-gap bg-dollar preventDefClass" id="bill" placeholder="0" value='0'>
       
       <h2 class="">Select Tip %</h2>
       <div class="tip-flex add-gap">
 
         <button class="percentage-button fivePerc active">5%</button>
-        <button class="percentage-button tenPerc active">10%</button>
+        <button class="percentage-button tenPerc">10%</button>
         <button class="percentage-button fifteenPerc">15%</button>
 
 
         <button class="percentage-button twentyfivePerc">25%</button>
         <button class="percentage-button fiftyPerc">50%</button>
-        <button class="percentage-button customPerc">Custom
-          <input class="percentage-input" type="number"  id=""></button>
+        <div class="percentage-button customPerc"><div class="custom-text">Custom</div>
+          <input class="percentage-input preventDefClass" type="number" value="0" min="0"></div>
 
       </div>
       <h2>Number of People</h2>
-      <input type="number" class="user-input bg-user"  id="people" min="1" value="1" placeholder="0">
+      <input type="number" class="user-input bg-user preventDefClass"  id="people" min="1" value="1" placeholder="0">
     </div>
 
     <div class="result">
 
-      <div class="">
+      <div>
         <div class="tip-amount">
           
-          <p>Tip Amount</p>
+          <p class="total-text">Tip Amount</p>
            <span class="per-person">/ person</span>
 
-          <span class="result-input" id="resultOfTip">d</span>
+          <span class="result-output" id="resultOfTip">0</span>
        
           
         </div>
@@ -56,14 +57,14 @@
 
         <div class="tip-amount">
         
-          <p>Total</p>
+          <p class="total-text">Total</p>
           <span class="per-person">/ person</span>
           
-          <span class="result-input"  id="resultOfTip">d</span>
+          <span class="result-output"  id="totalBill">0</span>
         </div>
       </div>
 
-      <button class="reset-button">Reset</button>
+      <button id="reset" class="reset-button">Reset</button>
     </div>
 
   </div>
