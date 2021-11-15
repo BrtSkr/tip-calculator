@@ -22,21 +22,21 @@
     
 }
 .bg-dollar{
-    background: url(/images/icon-dollar.svg) no-repeat hsl(189, 41%, 97%) left;
+    background: url(/images/icon-dollar.svg) no-repeat $--clr--accent--lcyan left;
     background-size: 6%;
 }
 .bg-dollar:focus{
-    border: solid hsl(172, 67%, 45%);
+    border: solid $--clr--accent--green;
     outline: none;
     transition: 0.5s;
 }
 
 .bg-user{
-    background: url(/images/icon-person.svg) no-repeat hsl(189, 41%, 97%) left;
+    background: url(/images/icon-person.svg) no-repeat $--clr--accent--lcyan left;
     background-size: 3vh;
 }
 .bg-user:focus{
-    border: solid hsl(172, 67%, 45%);
+    border: solid $--clr--accent--green;
     outline: none;
     transition: 0.5s;
 }
@@ -45,7 +45,7 @@
     font-family: monospace;
     border: none;
     border-radius: 5px;
-    background-color: hsl(183, 100%, 15%);
+    background-color: $--clr--neutral--dcyan;
     margin-top: 2vh;
     min-width: 12vh;
     max-width: 12vh;
@@ -55,10 +55,10 @@
 }
 
 .percentage-button:hover, .percentage-input:hover{
-    background-color: hsl(172, 67%, 45%);
+    background-color: $--clr--accent--green;
 }
 .user-input:hover, .user-input:focus{
-  background-color:  hsl(185, 41%, 84%);
+  background-color:  $--clr--accent--mlcyan;
 }
 .custom-text{
     text-align: center;
@@ -74,17 +74,17 @@
     display: none;
     font-size: 3vh;
     transition: 0.3s;
-    background-color: hsl(185, 41%, 84%);
+    background-color: $--clr--accent--mlcyan;
 }
 .percentage-input:focus{
     outline: none;
     border-radius: 5px;
-    background-color: hsl(172, 67%, 45%);
+    background-color: $--clr--accent--green;
     transition: 0.3s;
 }
 
 //if you clicked any of the buttons with percentage this class will be added
 .active{
-    background-color: hsl(172, 67%, 45%);
+    background-color: $--clr--accent--green;
     transition: 0.4s;
 }

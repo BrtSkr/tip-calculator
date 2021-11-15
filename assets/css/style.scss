@@ -1,6 +1,14 @@
 
+$--clr--accent--green: hsl(172, 67%, 45%);
+$--clr--accent--mlcyan: hsl(185, 41%, 84%);
+$--clr--accent--lcyan: hsl(189, 41%, 97%);
+$--clr--neutral--dcyan: hsl(183, 100%, 15%);
+
 @import './user-inputs';
 @import './result'; 
+
+
+
 //In short they are two files that represent left and right in flexbox
 
 html{

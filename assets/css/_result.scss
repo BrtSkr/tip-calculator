@@ -1,5 +1,5 @@
 .result{
-    background-color: hsl(183, 100%, 15%);
+    background-color: $--clr--neutral--dcyan;
     min-width: 35vh;
     border-radius: 10px;
     padding: 5vh 1vh;
@@ -16,7 +16,7 @@
     margin-left: 15vh;
     font-size: 3vh;
     border: none;
-    color:hsl(172, 67%, 45%);
+    color: $--clr--accent--green;
     font-weight: 800;
 }
 .per-person{
@@ -30,7 +30,7 @@
     min-height: 4vh;
     border: none;
     border-radius: 5px;
-    background-color: hsl(172, 67%, 45%);
+    background-color: $--clr--accent--green;
     letter-spacing: .2px;
     font-size: 2vh;
     font-family:monospace;
@@ -39,7 +39,7 @@
     transition: 0.3s;
 }
 .reset-button:hover{
-    background-color:  hsl(185, 41%, 84%);
+    background-color:  $--clr--accent--mlcyan;
     transition: 0.3s;
 }
 .total-text{
