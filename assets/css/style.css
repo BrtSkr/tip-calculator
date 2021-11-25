@@ -30,7 +30,7 @@
 }
 
 .bg-dollar {
-  background: url(/images/icon-dollar.svg) no-repeat #f4fafa left;
+  background: url(../images/icon-dollar.svg) no-repeat #f4fafa left;
   background-size: 6%;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .bg-user {
-  background: url(/images/icon-person.svg) no-repeat #f4fafa left;
+  background: url(../images/icon-person.svg) no-repeat #f4fafa left;
   background-size: 3vh;
 }
 
